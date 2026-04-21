@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Pipeline outputs (generated files — not tracked in git)
+outputs/
+*.parquet
+*.pkl
+*.json
+fold_indices.pkl
+best_xgb_params.json
+features_QGA.txt
+features_QACO.txt
+horizon_results.csv
+Fig_*.png
+X_full.parquet
+
+# Data files (too large for git — use Zenodo/Google Drive)
+data/*.xlsx
+data/*.xls
+data/*.csv
+!data/sample/sample_data.csv     # keep the sample
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

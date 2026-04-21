@@ -1,0 +1,26 @@
+# Core scientific stack
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scipy>=1.11,<2.0
+
+# Machine learning
+scikit-learn>=1.3,<2.0
+xgboost>=2.0,<3.0
+lightgbm>=4.0,<5.0
+
+# Deep learning
+tensorflow>=2.13,<3.0
+
+# Time-series statistics
+statsmodels>=0.14,<1.0
+
+# Visualisation
+matplotlib>=3.7,<4.0
+
+# I/O
+openpyxl>=3.1
+pyarrow>=13.0
+pyyaml>=6.0
+
+# Testing
+pytest>=7.0
