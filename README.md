@@ -256,10 +256,10 @@ Tests cover: feature engineering, sequence creation, metric functions, QGA/QACO 
 If you use this code, please cite:
 
 ```bibtex
-@article{kirubakaran2025rice,
+@article{lourdeena2026rice,
   title   = {Hybrid QGA--QPSO Optimised XGBoost--LSTM Model for
              Multi-Horizon Rice Price Forecasting in India},
-  author  = {Kirubakaran, Lourdeena and {co-authors}},
+  author  = {Lourdeena J S, Graceline Jasmine S and Febin Daya J L},
   journal = {Journal Name},
   year    = {2025},
   doi     = {10.XXXX/XXXXXX}
