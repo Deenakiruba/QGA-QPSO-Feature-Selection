@@ -80,14 +80,23 @@ The file should contain these columns:
 
 Column -  Description 
 'STATE_KEY' -  State identifier 
+
 'DATE_STD' - Date (DD/MM/YYYY) 
+
 'Modal Price' - Modal market price (₹/quintal) 
+
 'Min Price', 'Max Price' -  Price range 
+
 'T2M_MAX', 'T2M_MIN' - Temperature (°C) from NASA POWER 
+
 'PRECTOTCORR' - Precipitation (mm/day) 
+
 'RH2M' - Relative humidity (%) 
+
 'WS2M' - Wind speed at 2m (m/s) 
-'ALLSKY_SFC_SW_DWN' -  Solar radiation (MJ/m²/day) 
+
+'ALLSKY_SFC_SW_DWN' -  Solar radiation (MJ/m²/day)
+
 'PRODUCTION_TONNES, `AREA_HA`, `YIELD_TON_PER_HA` - Production statistics 
 
 A 150-row sample is available in `data/sample/sample_data.csv` if you want to test the pipeline without the full dataset:
