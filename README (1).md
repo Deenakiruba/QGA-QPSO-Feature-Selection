@@ -28,14 +28,23 @@ The final model generates 7-day, 14-day, and 30-day ahead price forecasts.
 rice_price_forecasting/
 
 src/ rice_price_forecasting.py   ← Main pipeline\
+
 configs/
+
 features_QGA.txt            ← QGA-selected features
+
 pipeline_config.yaml        ← All tunable parameters
+
 data/sample/sample_data.csv         ← Sample dataset (150 rows)
+
 DATA_FORMAT.md          ← Column descriptions
+
 tests/ test_pipeline.py
+
 requirements.txt
+
 environment.yml
+
 LICENSE
 .......
 
